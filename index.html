@@ -8,10 +8,47 @@
 </head>
 <body>
 	
-	
 
+	<div class="container col-xs-4 col-xs-offset-4" id="login-container">
+        <h1 class="form-signin-heading">Family Members</h1>
+        <input type="text" id="name" class="form-control" placeholder="name" required autofocus>
+        <input type="text" id="age" class="form-control" placeholder="age" required>
+        <input type="text" id="gender" class="form-control" placeholder="gender" required>
+        <textarea name="" id="skills" placeholder="skills"></textarea>
+        <button class="btn btn-lg btn-success col-xs-6" id="loginButton">Login</button>
+        <button class="btn btn-lg btn-primary col-xs-6" id="registerButton">Register</button>
+    </div>
+
+
+
+	<div id="family-container" class="hide">
+		<div class="panel panel-default search-bar col-xs-offset-3">
+		  <div class="panel-body">
+		    <input class="form-control" type="text" id="input" placeholder="Enter Message">
+		    <button type="submit" class="btn btn-primary btn-lg" id="submit" data-loading-text="<i class='fa fa-circle-o-notch fa-spin' aria-hidden='true'></i>">Submit Message</button>
+		  </div>
+		</div>
+
+		<div id="logout-container"></div>
+
+		<div id="family-members">
+			<h2>Family Members</h2>
+			<ul id="current-member"></ul>
+		</div>
+
+		<div id="deleted-family">
+			<h2>Deleted Family Members</h2>
+			<ul id="deleted-member"></ul>
+		</div>
+	</div>	
+	
+	<script src="https://www.gstatic.com/firebasejs/3.6.0/firebase.js"></script>
 	<script type="text/javascript" src="lib/bower_components/jquery/dist/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
+	<script src="/javascripts/family.js"></script>
+	<script src="/javascripts/familyMehtods.js"></script>
+	<script src="/javascripts/familyDom.js"></script>
 	<script src="/javascripts/main.js"></script>
 </body>
 </html>

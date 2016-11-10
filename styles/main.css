@@ -1,0 +1,16 @@
+body {
+  background-color: teal; }
+  body h1 {
+    text-align: center; }
+
+.search-bar {
+  text-align: center;
+  background-color: #595c60;
+  margin: 0 auto; }
+  .search-bar input {
+    margin-bottom: 20px; }
+
+#current-member,
+#deleted-member {
+  padding-left: 40px;
+  padding-right: 40px; }
