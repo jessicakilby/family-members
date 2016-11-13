@@ -1,0 +1,37 @@
+{
+  "family": [
+    {
+      "name": "Bob Johnson",
+      "age": 34,
+      "gender": "male",
+      "skills": [
+        "burping",
+        "farting",
+        "inappropriate shouting",
+        "tantrums"
+      ]
+    },
+    {
+      "name": "Barb Johnson",
+      "age": 43,
+      "gender": "female",
+      "skills": [
+        "painting",
+        "writing",
+        "inappropriate shouting",
+        "eating"
+      ]
+    },
+    {
+      "name": "John Johnson",
+      "age": 14,
+      "gender": "male",
+      "skills": [
+        "sleeping",
+        "napping",
+        "inappropriate shouting",
+        "eating"
+      ]
+    }
+  ]
+}

@@ -1,3 +1,7 @@
 {
-	"client_id": ""
+    "apiKey": "",
+    "authDomain": "",
+    "databaseURL": "",
+    "storageBucket": "",
+    "messagingSenderId": ""
 }
